@@ -1,0 +1,52 @@
+﻿{
+    "redis": {
+        "host": "marketscan.redis.cache.windows.net",
+        "port": "6379",
+        "password": "AASiq7zXkbOzBNqG4oi1YExWmh8H5hAawigFWxUXMf8=",
+        "ssl": "False"
+    },
+    "ConnectionManager": {
+        "ServiceURL": "http://services.marketscan.io:7070",
+        "ImportChannel": "ConnectionManager:ImportChannel",
+        "RestartChannel": "ConnectionManager:RestartChannel",
+        "UpdateAppsChannel": "ConnectionManager:UpdateAppsChannel"
+    },
+    "Timeout": "30",
+    "GoogleGeoAPI": {
+        "Url": "https://maps.googleapis.com/maps/api/geocode",
+        "Key": "AIzaSyAgznLr-UOk8gUBQ1N_KDTWhK8sP96KhZo"
+    },
+    "mScanAPI": {
+        "UrlREST": "http://mscanapi.staging.msis.dev",
+        "PartnerID": "30ae78f5-4825-4045-b09a-91b504657f1e",
+        "Account": "999004"
+    },
+    "ConnectionStrings": {
+        "_Scan": "server=mscandb.trafficmanager.net;database=SCAN;UID=developer;PWD=Back_2_basics;",
+        "Scan": "server=localhost;database=SCAN;UID=developer;PWD=Back_2_basics;",
+        "_Dealership": "server=db.marketscan.io;database=Accounts;UID=developer@marketscan;PWD=Back_2_basics;",
+        "Dealership": "server=marketscan-staging.database.windows.net;database=Accounts;UID=developer;PWD=Back_2_basics;",
+        "_Daedalus": "server=db.marketscan.io;database=DAEDALUS;UID=developer@marketscan;PWD=Back_2_basics;",
+        "Daedalus": "server=marketscan-staging.database.windows.net;database=DAEDALUS;UID=developer;PWD=Back_2_basics;",
+        "_DBAuth": "server=db.marketscan.io;database=AUTH;UID=developer@marketscan;PWD=Back_2_basics;",
+        "DBAuth": "server=marketscan-staging.database.windows.net;database=AUTH;UID=developer;PWD=Back_2_basics;",
+        "_DBLogging": "server=db.marketscan.io;database=Logging;UID=developer@marketscan;PWD=Back_2_basics;",
+        "DBLogging": "server=marketscan-staging.database.windows.net;database=Logging;UID=developer;PWD=Back_2_basics;"
+    },
+    "mScopeRebatesServiceURL": {
+        "UrlREST": "http://mrebates.staging.msis.dev"
+    },
+    "mScope": {
+        "_UrlREST": "http://m-mgauge-01.azurewebsites.net",
+        "UrlREST": "http://mscopeapi.staging.msis.dev",
+        "UrlRESTAPI": "http://mscopeapi.staging.msis.dev",
+        "_mScanAPIUrlREST": "http://v1.mscanapi.com/rest/mscanservice.rst",
+        "mScanAPIUrlREST": "http://mscanapi.staging.msis.dev/rest/mscanservice.rst",
+        "DealerPortal": "https://mportal.staging.msis.dev/"
+    },
+    "mEnvironment": {
+        "isAPI": "true",
+        "useQueue": "true",
+        "isReport": "true"
+    }
+}
